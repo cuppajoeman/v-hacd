@@ -2,6 +2,8 @@
 
 ![Approximate convex decomposition of "Camel"](doc/acd.png)
 
+The acronum stands for: volumetric hierarchical approximate convex decomposition
+
 # Why do we need approximate convex decomposition?
 
 Collision detection is essential for [realistic physical interactions](https://www.youtube.com/watch?v=oyjE5L4-1lQ) in video games and computer animation. In order to ensure real-time interactivity with the player/user, video game and 3D modeling software developers usually approximate the 3D models composing the scene (e.g. animated characters, static objects...) by a set of simple convex shapes such as ellipsoids, capsules or convex-hulls. In practice, these simple shapes provide poor approximations for concave surfaces and generate false collision detection.
